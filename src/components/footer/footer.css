@@ -1,0 +1,14 @@
+footer {
+  background: var(--color-primary);
+  padding: 0.2rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+.footer__copyright {
+  margin-bottom: 0;
+}
+
+small {
+  color: var(--color-light);
+}
