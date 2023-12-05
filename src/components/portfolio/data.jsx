@@ -14,7 +14,7 @@ import {
   BiLogoBootstrap,
   BiLogoJava,
   BiLogoPostgresql,
-  BiLogoHeroku
+  BiLogoHeroku,
 } from "react-icons/bi";
 
 const data = [
@@ -45,13 +45,13 @@ const data = [
     kind: "Fullstack",
     technology: [
       <BiLogoPython />,
-      < BiLogoFlask />,
+      <BiLogoFlask />,
       <BiLogoHtml5 />,
       <BiLogoCss3 />,
       <BiLogoJavascript />,
       <BiLogoReact />,
       <BiLogoPostgresql />,
-      <BiLogoHeroku />
+      <BiLogoHeroku />,
     ],
     description:
       "The Inspiration Board project is a fullstack dynamic application that fosters inspiration by allowing diverse users to curate boards with motivational themes and share uplifting quotes. The backend, powered by a RESTful API crafted with Python and Flask, integrates with the frontend developed using HTML, CSS, JavaScript, and React. The project ensures secure and efficient data storage by leveraging the robust PostgreSQL database. The culmination of these technologies and frameworks is hosted on Heroku.",
@@ -62,13 +62,8 @@ const data = [
     id: 3,
     title: "Java",
     image: "",
-    kind: "Frontend",
-    technology: [
-      <BiLogoHtml5 />,
-      <BiLogoCss3 />,
-      <BiLogoJavascript />,
-      <BiLogoReact />,
-    ],
+    kind: "Backend",
+    technology: [<BiLogoJava />],
     description:
       "A dynamic and interactive portfolio showcasing a diverse collection of my coding projects. Meticulously crafted using HTML, CSS, and React, the frontend offers a seamless and engaging user experience. Leveraging the power of JavaScript, the portfolio features smooth transitions and a responsive design for optimal viewing on various devices.",
     github: "https://github.com/Barbara-Bennett/react-chatlog",
@@ -81,7 +76,7 @@ const data = [
     technology: [<BiLogoHtml5 />, <BiLogoCss3 />, <BiLogoJavascript />],
     description:
       "A group project that uses JavaScript, CSS, and Axios to fetch real-time weather data from OpenWeather's API to provide essential weather information such as temperature, sky conditions, and city names and allows users to customize their experience. Users can personalize their weather view with features like temperature adjustment, city renaming, and a sky-type dropdown.",
-    github: "https://github.com/Barbara-Bennett/weather-app",
+    github: "https://github.com/Barbara-Bennett/weather-report",
   },
   {
     id: 5,
@@ -96,9 +91,8 @@ const data = [
     ],
     description:
       "A dynamic and interactive portfolio showcasing a diverse collection of my coding projects. Meticulously crafted using HTML, CSS, and React, the frontend offers a seamless and engaging user experience. Leveraging the power of JavaScript, the portfolio features smooth transitions and a responsive design for optimal viewing on various devices.",
-    github: "https://github.com/Barbara-Bennett/react-chatlog",
+    github: "https://github.com/Barbara-Bennett/portfolio",
   },
-
 ];
 
 export default data;
