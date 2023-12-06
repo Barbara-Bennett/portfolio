@@ -38,3 +38,17 @@ nav span {
   display: flex;
   color: var(--color-light);
 }
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+    gap: 0.1rem;
+  
+  }
+  nav a {
+    background: transparent;
+    padding: 0.9rem;
+    display: flex;
+    font-size: 1rem;
+  }
+}

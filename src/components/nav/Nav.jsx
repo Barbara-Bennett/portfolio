@@ -77,5 +77,3 @@ const Nav = () => {
 
 export default Nav;
 
-{/* <a href="https://github.com/Barbara-Bennett"><FaGithub /></a> */}
-
