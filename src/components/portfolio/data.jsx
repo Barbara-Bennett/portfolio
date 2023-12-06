@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import portfolio1 from "../../assets/portfolio1.jpg";
-import portfolio2 from "../../assets/portfolio2.jpeg";
-import portfolio3 from "../../assets/portfolio3.jpeg";
+import board from "../../assets/board.png";
+import tomato from "../../assets/tomato.png";
+import weather from "../../assets/weather.jpeg";
 import {
   BiLogoPython,
   BiLogoDjango,
@@ -12,7 +12,6 @@ import {
   BiLogoJavascript,
   BiLogoReact,
   BiLogoBootstrap,
-  BiLogoJava,
   BiLogoPostgresql,
   BiLogoHeroku,
 } from "react-icons/bi";
@@ -21,7 +20,7 @@ const data = [
   {
     id: 1,
     title: " TomatoBox Inventory Management WebApp",
-    image: portfolio1,
+    image: tomato,
     kind: "Fullstack",
     technology: [
       <BiLogoPython />,
@@ -36,12 +35,12 @@ const data = [
     description:
       "A fullstack solution tailored for intermediaries, simplifying the tracking of transaction boxes, from customer registration to transaction recording, borrowed box tracking, and damaged box management. Developed with Django for the robust backend RestAPI and React with Bootstrap for the responsive frontend. ",
     github: "https://github.com/Barbara-Bennett/tomato-box",
-    demo: "https://frontend-pxx1v0cmp-barbara-bennett.vercel.app/",
+    demo: "https://tomato-box-fddde14a4e67.herokuapp.com/",
   },
   {
     id: 2,
     title: "Inspiration board",
-    image: "",
+    image: board,
     kind: "Fullstack",
     technology: [
       <BiLogoPython />,
@@ -60,39 +59,29 @@ const data = [
   },
   {
     id: 3,
-    title: "Java",
-    image: "",
-    kind: "Backend",
-    technology: [<BiLogoJava />],
-    description:
-      "A dynamic and interactive portfolio showcasing a diverse collection of my coding projects. Meticulously crafted using HTML, CSS, and React, the frontend offers a seamless and engaging user experience. Leveraging the power of JavaScript, the portfolio features smooth transitions and a responsive design for optimal viewing on various devices.",
-    github: "https://github.com/Barbara-Bennett/react-chatlog",
-  },
-  {
-    id: 4,
     title: "Weather Report",
-    image: portfolio2,
+    image: weather,
     kind: "Frontend",
     technology: [<BiLogoHtml5 />, <BiLogoCss3 />, <BiLogoJavascript />],
     description:
       "A group project that uses JavaScript, CSS, and Axios to fetch real-time weather data from OpenWeather's API to provide essential weather information such as temperature, sky conditions, and city names and allows users to customize their experience. Users can personalize their weather view with features like temperature adjustment, city renaming, and a sky-type dropdown.",
     github: "https://github.com/Barbara-Bennett/weather-report",
   },
-  {
-    id: 5,
-    title: "Portfolio",
-    image: "",
-    kind: "Frontend",
-    technology: [
-      <BiLogoHtml5 />,
-      <BiLogoCss3 />,
-      <BiLogoJavascript />,
-      <BiLogoReact />,
-    ],
-    description:
-      "A dynamic and interactive portfolio showcasing a diverse collection of my coding projects. Meticulously crafted using HTML, CSS, and React, the frontend offers a seamless and engaging user experience. Leveraging the power of JavaScript, the portfolio features smooth transitions and a responsive design for optimal viewing on various devices.",
-    github: "https://github.com/Barbara-Bennett/portfolio",
-  },
+  // {
+  //   id: 4,
+  //   title: "Portfolio",
+  //   image: "",
+  //   kind: "Frontend",
+  //   technology: [
+  //     <BiLogoHtml5 />,
+  //     <BiLogoCss3 />,
+  //     <BiLogoJavascript />,
+  //     <BiLogoReact />,
+  //   ],
+  //   description:
+  //     "A dynamic and interactive portfolio showcasing a diverse collection of my coding projects. Meticulously crafted using HTML, CSS, and React, the frontend offers a seamless and engaging user experience. Leveraging the power of JavaScript, the portfolio features smooth transitions and a responsive design for optimal viewing on various devices.",
+  //   github: "https://github.com/Barbara-Bennett/portfolio",
+  // },
 ];
 
 export default data;
